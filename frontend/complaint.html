@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Submit Complaint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Submit Complaint</h2>
+
+        <form onsubmit="submitComplaint(); return false;">
+
+            <label>Complaint Title</label>
+            <br>
+            <input type="text" id="title" required minlength="5" maxlength="100" placeholder="Complaint title">
+            <br>
+            <br>
+
+            <label>Category</label>
+            <br>
+            <input type="text" id="category" required placeholder="Category">
+            <br>
+            <br>
+
+            <label>Priority</label>
+            <br>
+            <select id="priority" required>
+                <option value="">Select priority</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <br>
+            <br>
+
+            <label>Description</label>
+            <br>
+            <textarea id="description" required minlength="10" maxlength="500" placeholder="Describe the issue"></textarea>
+            <br>
+            <br>
+
+            <button type="submit">Submit Complaint</button>
+
+        </form>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

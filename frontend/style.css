@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4f6f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:8px;
+    width:350px;
+    text-align:center;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    padding:8px 15px;
+    border:none;
+    background:#4CAF50;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#45a049;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h2>User Login</h2>
+
+        <form onsubmit="login(); return false;">
+
+            <label>Email</label>
+            <br>
+            <input type="email" id="email" required placeholder="Enter email">
+            <br>
+            <br>
+
+            <label>Password</label>
+            <br>
+            <input type="password" id="password" required minlength="6" maxlength="20" placeholder="Enter password">
+            <br>
+            <br>
+
+            <button type="submit">Login</button>
+
+        </form>
+
+        <p>New user?</p>
+        <a href="register.html">Register</a>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

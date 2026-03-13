@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Panel</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            text-align: center;
+        }
+        
+        #list{
+            width: 600px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        
+        .complaint{
+            border:1px solid black;
+            padding:10px;
+            margin-bottom:10px;
+        }
+        
+        button{
+            margin-top:5px;
+        }
+    </style>
+
+</head>
+    <body>
+        <h1>Admin Panel</h1>
+        <button onclick="loadComplaints()">Load Complaints</button>
+        <div id="list"></div>
+        <script src="script.js"></script>
+    </body>
+
+</html>

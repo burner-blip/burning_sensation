@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>User Registration</h2>
+
+        <form onsubmit="register(); return false;">
+
+            <label>Name</label>
+            <br>
+            <input type="text" id="name" required minlength="3" maxlength="50" placeholder="Enter name">
+            <br>
+            <br>
+
+            <label>Email</label>
+            <br>
+            <input type="email" id="email" required placeholder="Enter email">
+            <br>
+            <br>
+
+            <label>Phone</label>
+            <br>
+            <input type="tel" id="phone" required pattern="[0-9]{10}" placeholder="10 digit phone number">
+            <br>
+            <br>
+
+            <label>Password</label>
+            <br>
+            <input type="password" id="password" required minlength="6" maxlength="20" placeholder="Password">
+            <br>
+            <br>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p>Already have account?</p>
+        <a href="login.html">Login</a>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
